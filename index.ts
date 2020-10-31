@@ -32,7 +32,7 @@ class User implements IUser {
 }
 
 const delayPedal = new Pedal('Delay', 'Blue', false);
-const distortionPedal = new Pedal('Delay', 'Blue', false);
+const distortionPedal = new Pedal('Distortion', 'red', false);
 const pedals = [delayPedal, distortionPedal];
 
 const Roman = new User('Роман', 'Дроздов', 18, 'муж', pedals);

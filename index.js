@@ -16,7 +16,7 @@ var User = /** @class */ (function () {
     return User;
 }());
 var delayPedal = new pedal_1.Pedal('Delay', 'Blue', false);
-var distortionPedal = new pedal_1.Pedal('Delay', 'Blue', false);
+var distortionPedal = new pedal_1.Pedal('Distortion', 'red', false);
 var pedals = [delayPedal, distortionPedal];
 var Roman = new User('Роман', 'Дроздов', 18, 'муж', pedals);
 console.log(Roman);
